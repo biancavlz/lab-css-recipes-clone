@@ -5,6 +5,29 @@
     font-family: 'Roboto', sans-serif;
 }
 
+section {
+  margin-top: 60px;
+}
+
+h3 {
+  margin-bottom: 25px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  margin: 100px 200px;
+  font-size: 30px;
+  font-weight: lighter;
+}
+
+.image {
+  display: block;
+  margin: 30px auto 40px;
+}
+
 /* jumbotron */
 .jumbotron {
     background-image: url('../images/apple-pie.jpg');
@@ -21,14 +44,4 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
-.container {
-  margin: 100px 200px;
-  font-size: 30px;
-}
-
-/* intro section */
-.intro-image {
-  display: block;
-  margin: 20px auto 30px;
 }
